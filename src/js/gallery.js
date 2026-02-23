@@ -16,7 +16,7 @@ gallerySwiper = new Swiper('.gallery-swiper-container', {
   grabCursor: true,
   breakpoints: {
     1440: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       centeredSlides: false,
       allowTouchMove: false,
       grabCursor: false,

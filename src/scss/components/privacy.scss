@@ -1,5 +1,5 @@
 .policy-section {
-  background: #f4e6e3;
+  background: #fff;
   padding-top: 112px;
   padding-bottom: 60px;
 
@@ -10,13 +10,13 @@
 }
 
 .policy-main-title {
-  font-family: 'EB Garamond', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 42px;
-  line-height: 1.24;
+  line-height: 1.4;
   text-transform: uppercase;
   text-align: center;
-  color: #014961;
+  color: #192a4d;
   margin-bottom: 40px;
 
   @include media(desktop) {
@@ -25,24 +25,24 @@
 }
 
 .policy-title {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   font-size: 20px;
   line-height: 1.4;
-  color: #014961;
+  color: #192a4d;
   margin-bottom: 16px;
 
   @include media(desktop) {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 
 .policy-text {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
-  color: #014961;
+  color: #192a4d;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -59,11 +59,11 @@
 }
 
 .policy-item {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
-  color: #014961;
+  color: #192a4d;
   margin-bottom: 8px;
 
   &:last-child {

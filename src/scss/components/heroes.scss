@@ -1,0 +1,86 @@
+.heroes-section {
+}
+
+.heroes-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.heroes-container {
+  @include media(desktop) {
+  }
+}
+
+.heroes-content-wrapper {
+  border-radius: 36px;
+  padding: 48px 16px;
+  background-image: url(../img/heroes/heroes-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  @include media(desktop) {
+    background-image: url(../img/heroes/heroes-bg-desk.png);
+  }
+}
+
+.heroes-title {
+  color: #fff;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+    margin-bottom: 64px;
+  }
+}
+
+.heroes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+  }
+}
+
+.heroes-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  @include media(desktop) {
+    width: 100%;
+    max-width: 272px;
+  }
+}
+
+.heroes-img {
+  @include media(desktop) {
+  }
+}
+
+.heroes-item-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}

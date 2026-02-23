@@ -1,44 +1,77 @@
 <section class="section about-section" id="about">
   <div class="about-bg-wrapper">
     <div class="container about-container">
-      <h2 class="section-title about-title">Gameplay Flow</h2>
-      <p class="about-text">
-        The better you match, the more cool stuff you unlock.
-      </p>
-      <ul class="about-list">
-        <li class="about-list-item">
-          <svg class="about-icon" width="60" height="60">
-            <use href="./img/sprite.svg#icon-gameplay1"></use>
-          </svg>
-          <p class="about-item-text">
-            Match three or more tiles to clear the board.
-          </p>
-        </li>
-        <li class="about-list-item">
-          <svg class="about-icon" width="60" height="60">
-            <use href="./img/sprite.svg#icon-gameplay2"></use>
-          </svg>
-          <p class="about-item-text">
-            Earn rewards to unlock landmarks, outfits, and decorative items.
-          </p>
-        </li>
-        <li class="about-list-item">
-          <svg class="about-icon" width="60" height="60">
-            <use href="./img/sprite.svg#icon-gameplay3"></use>
-          </svg>
-          <p class="about-item-text">
-            Complete missions and events to progress the story.
-          </p>
-        </li>
-        <li class="about-list-item">
-          <svg class="about-icon" width="60" height="60">
-            <use href="./img/sprite.svg#icon-gameplay4"></use>
-          </svg>
-          <p class="about-item-text">
-            The better you match, the more cool stuff you unlock.
-          </p>
-        </li>
-      </ul>
+      <h2 class="section-title about-title">How It Works</h2>
+      <div class="about-content-wrapper">
+        <ul class="about-list">
+          <li class="about-list-item">
+            <img
+              class="about-item-img"
+              src="./img/about/about-img1.png"
+              alt="Screenshot of the game"
+              width="90"
+              height="99"
+            />
+            <p class="about-item-text">
+              Match three or more items to spawn heroes.
+            </p>
+          </li>
+          <li class="about-list-item">
+            <img
+              class="about-item-img"
+              src="./img/about/about-img2.png"
+              alt="Screenshot of the game"
+              width="85"
+              height="99"
+            />
+            <p class="about-item-text">
+              Build and upgrade heroes to enhance their abilities.
+            </p>
+          </li>
+          <li class="about-list-item">
+            <img
+              class="about-item-img"
+              src="./img/about/about-img3.png"
+              alt="Screenshot of the game"
+              width="83"
+              height="99"
+            />
+            <p class="about-item-text">
+              Use strategy to activate power-ups and boost your defense.
+            </p>
+          </li>
+          <li class="about-list-item">
+            <img
+              class="about-item-img"
+              src="./img/about/about-img4.png"
+              alt="Screenshot of the game"
+              width="100"
+              height="99"
+            />
+            <p class="about-item-text">
+              Progress through episodes and unlock new challenges.
+            </p>
+          </li>
+        </ul>
+        <picture>
+          <source
+            srcset="./img/about/about-img-mob.png"
+            media="(min-width: 1440px)"
+            width="496"
+            height="577" />
+          <source
+            srcset="./img/about/about-img-mob.png"
+            width="343"
+            height="399" />
+          <img
+            class="about-img"
+            src="./img/about/about-img-mob.png"
+            alt="Screenshot of the game"
+            width="343"
+            height="399"
+            loading="lazy"
+        /></picture>
+      </div>
     </div>
   </div>
 </section>

@@ -21,26 +21,14 @@
 }
 
 .about-title {
+  margin-bottom: 64px;
+
   @include media(desktop) {
+    text-align: left;
   }
 }
 
-.about-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.4;
-  text-align: center;
-  color: #5c679d;
-  margin-bottom: 48px;
-
-  @include media(desktop) {
-    font-size: 24px;
-    margin-bottom: 64px;
-  }
-}
-
-.about-list {
+.about-content-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,58 +36,83 @@
 
   @include media(desktop) {
     flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+
+  @include media(desktop) {
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
+    gap: 46px;
+    max-width: 690px;
   }
 }
 
 .about-list-item {
+  box-shadow: 6px 6px 20px 0 rgba(99, 99, 99, 0.12);
+  border-radius: 24px;
+  padding: 12px;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 16px;
-  border-radius: 16px;
-  padding: 32px;
   width: 100%;
-  max-width: 343px;
+  max-width: 322px;
+  min-height: 268px;
 
   &:nth-child(1) {
-    background: #3cab67;
+    border: 18px solid #1f4fa8;
+    background: #2f6fdb;
   }
 
   &:nth-child(2) {
-    background: #f87583;
+    border: 18px solid #5a2f99;
+    background: #7a4cc2;
   }
 
   &:nth-child(3) {
-    background: #644fb4;
+    border: 18px solid #5a2f99;
+    background: #7a4cc2;
   }
 
   &:nth-child(4) {
-    background: #74bde0;
+    border: 18px solid #1f4fa8;
+    background: #2f6fdb;
   }
 
   @include media(desktop) {
-    padding: 32px;
-    max-width: 560px;
+    max-width: 322px;
   }
 }
 
-.about-icon {
-  min-width: 60px;
-
+.about-item-img {
   @include media(desktop) {
   }
 }
 
 .about-item-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.4;
+  text-align: center;
   color: #fff;
 
   @include media(desktop) {
-    font-size: 24px;
+    font-size: 22px;
+  }
+}
+
+.about-img {
+  @include media(desktop) {
+    min-width: 496px;
   }
 }
