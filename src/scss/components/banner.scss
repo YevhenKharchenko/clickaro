@@ -60,10 +60,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f8c949;
+  background: #90c733;
   padding: 16px 32px;
   border-radius: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
@@ -75,7 +75,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: #e8b429;
+    background: #7aa92b;
   }
 
   @include media(desktop) {
@@ -88,13 +88,13 @@
   align-items: center;
   justify-content: center;
   padding: 15px 31px;
-  border: 1px solid #323232;
+  border: 1px solid #0c0d29;
   border-radius: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
-  color: #323232;
+  color: #0c0d29;
   width: 100%;
   max-width: 343px;
   transition:
@@ -104,7 +104,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: #323232;
+    background: #0c0d29;
     color: #fff;
   }
 

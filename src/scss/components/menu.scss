@@ -1,5 +1,5 @@
 .context-menu {
-  background: #02a7bb;
+  background: #600090;
   display: none;
   justify-content: center;
   width: 100%;
@@ -31,17 +31,16 @@
   justify-content: center;
   align-items: center;
   padding: 6px 12px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.4;
-  text-transform: uppercase;
   text-align: center;
-  color: #c1f4ff;
+  color: #fff;
   transition: color 0.3s ease-in-out;
 
   &:active {
-    color: #fff;
+    color: #fdcd07;
   }
 }
 
